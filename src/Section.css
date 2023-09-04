@@ -1,0 +1,166 @@
+.section{
+    min-height: 3000px;
+    display: flex;
+    justify-content: center;    
+    margin-left: 36.5%;
+    margin-top: 700px;
+    background-color:#ffffff1e;
+}
+ 
+.title-artigo{
+    margin-left: 9%;
+    margin-right: 8.2%;
+    text-align: justify;
+    word-wrap: break-word;
+
+}
+.subtitle-artigo{
+    margin-left:71%;
+}
+.sub-subtitle{
+    margin-left: 9%;
+    font-weight: 400;
+}
+.media{
+    height: 20px;
+    width: auto;
+    margin-left: 9%;
+
+}
+.socialmedia{
+    margin-top: 5px;
+    display: flex;
+    flex-direction: row;
+    width: 40px;
+    margin-left: 9%;
+}
+.textos1{
+    margin-top: 20px;
+    margin-left: 15%;
+    margin-right: 8.2%;
+    text-align: justify;
+    word-wrap: break-word;
+
+}
+.texto-exemple1{
+    font-weight: 100;
+}
+.texto-exemple2{
+    margin-top: 20px;
+    text-align: justify;
+    word-wrap: break-word;
+}
+.news{
+    margin-top: 30px;
+    height: 440px;
+    width: auto;
+    margin-left: 25%;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.212);
+}
+.texto-exemple3{
+    margin-top: 20px;
+    margin-left: 9%;
+    margin-right: 8.2%;
+    text-align: justify;
+    word-wrap: break-word;
+}
+.texto-exemple4{
+    margin-top: 20px;
+    margin-left: 9%;
+    margin-right: 8.2%;
+    text-align: justify;
+    word-wrap: break-word;
+}
+.texto-exemple5{
+    margin-top: 20px;
+    margin-left: 9%;
+    margin-right: 8.2%;
+    text-align: justify;
+    word-wrap: break-word;
+}
+.italic-legend{
+    font-style: italic;
+    text-align: justify;
+    word-wrap: break-word;
+    margin-left: 10%;
+}
+.texto-exemple6{
+    margin-top: 20px;
+    margin-left: 9%;
+    margin-right: 8.2%;
+    text-align: justify;
+    word-wrap: break-word;
+}
+.texto-exemple7{
+    margin-top: 20px;
+    margin-left: 9%;
+    margin-right: 8.2%;
+    text-align: justify;
+    word-wrap: break-word;
+}
+.texto-exemple8{
+    margin-top: 20px;
+    margin-left: 9%;
+    margin-right: 8.2%;
+    text-align: justify;
+    word-wrap: break-word;
+}
+.texto-exemple9{
+    margin-top: 20px;
+    margin-left: 9%;
+    margin-right: 8.2%;
+    text-align: justify;
+    word-wrap: break-word;
+}
+.texto-exemple10{
+    margin-top: 20px;
+    margin-left: 9%;
+    margin-right: 8.2%;
+    text-align: justify;
+    word-wrap: break-word;
+    font-weight: bold;
+}
+@media (max-width:400px) {
+    .section{
+      margin-top: 800px;
+      margin-left: -5%;
+      
+    }
+    .news{
+        display: flex;
+        justify-content: center;
+        width: 300px;
+        height: auto;
+        transform: translateX(-60px);
+        margin-left: 30%;
+    }
+    .subtitle-artigo{
+        margin-right: 10%;
+    }
+    .italic-legend{
+        margin-left: 15%;
+        margin-right: 10%;
+    }
+}
+@media (max-width:415px) {
+    .section{
+      margin-top: 800px;
+      margin-left: -5%;
+      
+    }
+    .news{
+        display: flex;
+        justify-content: center;
+        width: 300px;
+        height: auto;
+        transform: translateX(-60px);
+        margin-left: 30%;
+    }
+    .subtitle-artigo{
+        margin-right: 10%;
+    }
+    .italic-legend{
+        margin-left: 15%;
+        margin-right: 10%;
+    }
+}

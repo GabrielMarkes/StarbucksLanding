@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;1,300&display=swap');
+.logo:hover{
+  color:rgb(11, 207, 60);
+  
+}
+.logo{
+  height: 50px;
+  width: 50px;
+  margin-left: 5%;
+  
+}
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1px;
+  background-color: white;
+  height: 110px;
+  width: 100%;
+  font-weight: bold;
+  border-bottom: 1px solid black;
+  position: fixed;
+  z-index: 1000;
+  font-family: 'Ubuntu', sans-serif;
+}
+@media (max-width:400px) {
+  .header{
+    margin-left: 0%;
+    padding-right: 50%;
+  }
+  .buttons{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-left: 70px;
+  }
+  }    
+.menu-header{
+  display: flex;
+  gap: 50px;
+  margin-right: 10%;
+  width: 100%;
+  margin-left: 30%;
+}
+.menu:hover{
+  color: rgb(11, 207, 60);
+  transition: 0.5s;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+}
+.produto:hover{
+  color: rgb(11, 207, 60);
+  transition: 0.5s;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+}
+.sobre:hover{
+  color: rgb(11, 207, 60);
+  transition: 0.5s;
+  cursor: pointer;
+  border-radius: 5px;
+  padding: 10px;
+  
+}
+.contato:hover{
+  color: rgb(11, 207, 60);
+  transition: 0.5s;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+}
+.nosso-café:hover{
+  color: rgb(11, 207, 60);
+  transition: 0.5s;
+  cursor: pointer;
+  border-radius: 5px;
+  padding: 10px;
+  
+}
+@media (max-width:495px) {
+  .menu-header{
+    gap: 30px;
+    display: flex;
+    flex-direction: column;
+  }
+  .header{
+    height: 250px;
+  }  
+}
+.first-button{
+   margin-right: 15px;
+   padding: 9px;
+   border-radius: 30px;
+   cursor: pointer;
+   transform: translateX(10px);
+   margin-top: -30px;
+}
+.second-button{
+  padding: 10px;
+  border-radius: 30px;
+  color: white;
+  background-color: black;
+  cursor: pointer;
+  transform: translateX(-15px);
+  margin-top: 4%;
+}
+.buttons{
+  margin-right: 10px;
+  margin-left: -500px;
+}
+
+@media (max-width:400px) {
+  .header{
+   width: 55%;
+  }
+  .logo{
+    visibility: hidden;
+    
+  }
+  .first-button{
+    transform: translateX(-12px);
+   }
+   .menu-header{
+    margin-left: -60%;
+   }
+}        
+@media (max-width: 415px) {
+  .header{
+    width: 100%;
+    }
+  .buttons{
+     transform: translateX(200px);
+     margin-right: 100px;
+     display: flex;
+     flex-direction: column;   
+      transform: translateX(40px);
+      gap: 10px;
+  
+    }
+    .first-button{
+      transform: translateX(-12px);
+     }
+    .logo{
+      visibility: hidden;
+    } 
+    .menu-header{
+      margin-left: -280px;
+    } 
+   }
+   
+     
+@media (max-width: 380px) {
+  .menu-header{
+    margin-left: -10px;
+  } 
+  .header{
+    
+    width: 300px;
+    }
+  .buttons{
+     transform: translateX(150px);
+     margin-left: -300px;
+    }  
+   }
+  
+ 
+          
+  

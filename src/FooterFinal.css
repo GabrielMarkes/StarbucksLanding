@@ -1,0 +1,49 @@
+.iconess{
+    height: 30px;
+    width: auto;   
+}
+.icos{
+    margin-top: 10px;
+    margin-left: 39%;
+    display: flex; 
+    gap: 10px;
+}
+.iconess:hover{
+    height: 35px;
+    width:auto;
+    transition: 1s;
+}
+@media (max-width:400px) {
+    .icos{
+      
+      margin-left: 22%;
+      gap: 15px;
+    }
+    .iconess{
+        height: 20px;
+
+    }
+    .iconess:hover{
+        height: 21px;
+        width:auto;
+        transition: 1s;
+    }
+    
+} 
+@media (max-width:415px) {
+    .icos{
+      
+      margin-left: 22%;
+      gap: 15px;
+    }
+    .iconess{
+        height: 20px;
+
+    }
+    .iconess:hover{
+        height: 21px;
+        width:auto;
+        transition: 1s;
+    }
+    
+} 

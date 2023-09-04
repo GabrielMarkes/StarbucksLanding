@@ -1,0 +1,39 @@
+.box{
+    height: 100%;
+    background-color:#1F3A33;
+    z-index: 999;
+    position: fixed;
+    width: 35.5%;
+}
+.logo-box{
+    height: 700px;
+    width: auto;
+    margin-top: 180px;
+    margin-left: 25%;
+
+}
+@media (max-width:1466px) {
+    .logo-box{
+        height: 600px;
+        width: auto;
+        margin-left: 20%;
+    }
+   
+  }
+
+.logo-box:hover{
+    height: 730px;
+    width: auto;
+    transition: 1s;
+
+}  
+@media (max-width:400px) {
+    .box{
+      display: none;
+    }
+}         
+@media (max-width:700px){
+    .box{
+        display: none;
+      }
+}
